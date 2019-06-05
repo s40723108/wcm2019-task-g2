@@ -1,0 +1,104 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>CMSimfly</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<script src="tipuesearch_content.js"></script>
+<script src="./../static/jquery.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="./../static/tipuesearch/tipuesearch.min.js"></script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script type="text/javascript">
+/*shorthand of $(document).ready(function(){};); */
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+function doSearch() {
+     $('#tipue_search_input').tipuesearch({
+        newWindow: true, minimumLength: 2
+     });
+}
+$(document).ready(doSearch);
+</script>
+
+</head><header><h1>WCM2019-g2</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='簡介.html'>簡介</a><li><a href='網路連線設定.html'>網路連線設定</a><ul><li><a href='1.李承澤 40723210.html'>1.李承澤 40723210</a></li></ul><li><a href='配置可攜程式環境.html'>配置可攜程式環境</a><ul><li><a href='2.李承澤 40723210.html'>2.李承澤 40723210</a></li></ul><li><a href='倉儲改版.html'>倉儲改版</a><ul><li><a href='3.李承澤 40723210.html'>3.李承澤 40723210</a></li></ul><li><a href='靜態 CMSimfly.html'>靜態 CMSimfly</a><ul><li><a href='4.李承澤 40723210.html'>4.李承澤 40723210</a></li></ul><li><a href='Mobile 網站內容.html'>Mobile 網站內容</a><ul><li><a href='5.李承澤 40723210.html'>5.李承澤 40723210</a></li></ul><li><a href='Virtual Host.html'>Virtual Host</a><li><a href='java.html'>java</a><li><a href='期中報告.html'>期中報告</a></li></ul></nav><section><div id="tipue_search_content">倉儲改版 << <a href='倉儲改版.html'>Previous</a> <a href='靜態 CMSimfly.html'>Next</a> >> 靜態 CMSimfly<br /><h1>3.李承澤 40723210</h1>
+<p>我的blogger文章:<a href="https://40723210.blogspot.com/2019/05/blog-post_21.html">https://40723210.blogspot.com/2019/05/blog-post_21.html</a></p>
+<p><strong>操作流程和影片:</strong></p>
+<p>1.先登入自己的github帳號。</p>
+<p>2.創建一個新的倉儲repositories。</p>
+<p>3.git clone <a href="https://github.com/s40723210/40723210">https://github.com/s40723210/40723210</a> 。</p>
+<p>4.進入要存放該資料的資料夾tmp。</p>
+<p>5.開啟倉儲設定，點選要推送的branch。</p>
+<p>6.進入該倉儲資料夾，開始更新或變動。</p>
+<p>7.git status &gt; git add . &gt; git commit -m "標題" &gt; git push。</p>
+<p><span>★git指令可參照簡介內的重點筆記</span></p>
+<p>我的教學影片:<a href="https://youtu.be/QBcUQYGy554">https://youtu.be/QBcUQYGy554</a><iframe data-blogger-escaped-allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="https://www.youtube.com/embed/QBcUQYGy554" width="560"></iframe></p>
+<p>我的blogger文章:<a href="https://40723210.blogspot.com/2019/04/ssh-keygit-clone-git-push.html">https://40723210.blogspot.com/2019/04/ssh-keygit-clone-git-push.html</a></p>
+<p><strong>使用ssh key來進行git clone 與git push:</strong></p>
+<div class="post-body entry-content" data-blogger-escaped-itemprop="description articleBody" id="post-body-7756927037016291787">
+<p>1.先把git config --edit --system裡面的helper = manager刪除後輸入:wq(是指儲存後退出)。</p>
+<p>2.進入控制台&gt;使用者帳戶&gt;認證管理員&gt;windows認證&gt;刪除現存的github帳號。</p>
+<p>3.輸入ssh-keygen -t rsa -b 4096 -C "github的email"。</p>
+<p>4.輸入你想存放的位子例如:Y:\home\.ssh/id_rsa。</p>
+<p>5.一直案Enter到結束。</p>
+<p>6.打開id_rsa並且全部複製&gt;進入setting&gt;SSH and GPG keys 。</p>
+<p>7.案New ssh key 貼上&gt;輸入想要的名子儲存。</p>
+<p>我的教學影片:<a href="https://youtu.be/SJHMm3o5uEw">https://youtu.be/SJHMm3o5uEw</a><iframe data-blogger-escaped-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" data-blogger-escaped-allowfullscreen="allowfullscreen" data-blogger-escaped-data-mce-fragment="1" data-mce-fragment="1" frameborder="0" height="390" src="https://www.youtube.com/embed/SJHMm3o5uEw" width="590"></iframe></p>
+</div><br />倉儲改版 << <a href='倉儲改版.html'>Previous</a> <a href='靜態 CMSimfly.html'>Next</a> >> 靜態 CMSimfly</div></section></div></body></html>
